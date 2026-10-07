@@ -9,7 +9,7 @@
             text-align: center;
         }
         
-       #sectionheader{
+       .sectionheader{
             font-size: 28px;
             color: #000000;
             margin: 20px 0 10px 0;
@@ -17,15 +17,16 @@
             min-width: 300px;
             
         }
-        h3 {
-            font-size: 24px;
+        .jobtitle{
+            font-size: 1.25em;
             color: #000000;
         }
-        h4 {
-            font-size: 20px;
+        .organization{
+            font-size: 1.25em;
             color: #000000;
         }
-        h5 {
+        .date{
             font-size: 16px;
             color: #000000;
+            margin: 2px 0 0px 0
         }
