@@ -11,19 +11,24 @@
         }
        .sectionheader{
             font-size: 28px;
-            color: #000000;
+            color: #ffffff;
+            background-color: #33485e;
             margin: 20px 0 10px 0;
             width: 70%;
             min-width: 300px;
+            padding:5px;
+            font-weight: bold;
+            
 
         }
         .jobtitle{
             font-size: 1.25em;
             color: #000000;
+            font-weight: bold;
 
         }
         .organization{
-            font-size: 1.25em;
+            font-size: 1em;
             color: #000000;
 
         }
