@@ -1,0 +1,31 @@
+
+        #name {
+            font-size: 36px;
+            color: #33485e;
+            border-bottom: 1px solid #33485e;
+            width: 60%;
+            min-width: 300px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+       #sectionheader{
+            font-size: 28px;
+            color: #000000;
+            margin: 20px 0 10px 0;
+            width: 70%;
+            min-width: 300px;
+            
+        }
+        h3 {
+            font-size: 24px;
+            color: #000000;
+        }
+        h4 {
+            font-size: 20px;
+            color: #000000;
+        }
+        h5 {
+            font-size: 16px;
+            color: #000000;
+        }
