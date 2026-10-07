@@ -38,8 +38,8 @@
 
         }
         .menu{
-            margin: 2px;
-            padding: 2px;
+            margin: 0px;
+            padding: 0px;
             text-align: center;
     
         }
@@ -47,8 +47,9 @@
             display: inline;
 
         }
-        .title{
+        #title{
         text-align: center;
+        font-size:1em;
 
 \
         } 
