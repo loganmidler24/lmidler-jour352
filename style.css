@@ -7,26 +7,40 @@
             min-width: 300px;
             margin: 0 auto;
             text-align: center;
+
         }
-        
        .sectionheader{
             font-size: 28px;
             color: #000000;
             margin: 20px 0 10px 0;
             width: 70%;
             min-width: 300px;
-            
+
         }
         .jobtitle{
             font-size: 1.25em;
             color: #000000;
+
         }
         .organization{
             font-size: 1.25em;
             color: #000000;
+
         }
         .date{
             font-size: 16px;
             color: #000000;
-            margin: 2px 0 0px 0
+            margin: 2px 0 0px 0;
+
+        }
+        .description{
+            margin: 10px 0 10px 0;
+
+        }
+        .menu{
+            margin: 2px;
+            padding: 2px;
+            text-align: center;
+
+    
         }
