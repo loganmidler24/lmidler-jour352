@@ -41,6 +41,8 @@
             margin: 2px;
             padding: 2px;
             text-align: center;
-
     
+        }
+        .menu li{
+            display: inline;
         }
