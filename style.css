@@ -8,8 +8,6 @@
             margin: 0 auto;
             text-align: center;
 
-   
-
         }
        .sectionheader{
             font-size: 28px;
@@ -47,7 +45,7 @@
         }
         .menu li{
             display: inline;
-            
+
         }
         .title{
         text-align: center;
