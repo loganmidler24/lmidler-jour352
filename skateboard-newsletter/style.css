@@ -1,0 +1,34 @@
+
+    /*fonts */
+    h1, h2, h3, .navbar-brand, .btn {
+      font-family: 'Special Elite', cursive;
+    }
+
+    /*icons */
+    .custom-icon {
+      font-size: 3em;
+    }
+
+    /*image size */
+    .custom-img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+    }
+
+    /* spacing */
+    .row {
+      padding-bottom: 50px;
+    }
+
+    /* mobile */
+    @media only screen and (max-width: 500px) {
+      h2 {
+        padding-top: 50px;
+      }
+      .btn {
+        background-color: teal !important;
+        border-color: teal !important;
+      }
+    }
+  
