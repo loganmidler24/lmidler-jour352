@@ -1,0 +1,108 @@
+/*Colors and text for page*/ 
+
+#byline {
+    font-size: 13px;
+    color: #666b60;
+    border-bottom: 1px solid #c9c5b9;
+    margin-bottom: 25px;
+}
+
+.intro {
+    font-size: 19px;
+    line-height: 1.6;
+    font-weight: 500;
+    font-style: italic;
+}
+ 
+body {
+    margin: 0;
+    background-color: #f3f0e8;
+    color: #25291f;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+#largetitle {
+    background-color: #243b2b;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 15px;
+    border-bottom: 5px solid #c9a34a;
+}
+
+.site-name {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.site-tagline {
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 5px 0 0;
+}
+
+#page-wrapper {
+    max-width: 760px;
+    margin: 35px auto;
+    padding: 0 25px;
+}
+
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 42px;
+    line-height: 1.15;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    color: #243b2b;
+    margin-top: 30px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    font-size: 12px;
+    color: #666b60;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-style: italic;
+    color: #243b2b;
+    border-left: 4px solid #c9a34a;
+    padding-left: 20px;
+    margin: 30px 10px;
+}
+
+
+/* Style for more by garden&gun */
+ul {
+    background-color: #e8e6dc;
+    padding: 20px 35px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+li a {
+    color: #243b2b;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
