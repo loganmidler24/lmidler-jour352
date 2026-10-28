@@ -1,228 +1,301 @@
 
-/* Main page */
+/* Main page styles */
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #314245;
     background-color: #FBEDD4;
-    line-height: 1.6;
+    margin: 0;
+    line-height: 1.7;
 }
 
-/* Navbar */
+/* Navigation */
 
-.resume-nav {
+.navbar {
     background-color: #FBEDD4;
-    padding: 18px 0;
+    padding: 18px 6%;
+    border-bottom: 1px solid #E2D9C9;
 }
 
 .navbar-brand {
     color: #314245;
-    font-size: 1.4rem;
+    font-size: 24px;
     font-weight: 700;
 }
 
-.navbar-brand:hover,
-.nav-link:hover {
+.navbar-brand:hover {
     color: #3D848F;
 }
 
 .nav-link {
     color: #314245;
-    margin-left: 15px;
+    margin-left: 16px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
-/* Page topper */
+.nav-link:hover {
+    color: #B5688C;
+}
 
-.hero {
+/* Top section and photo */
+
+.hero-section {
     background-color: #314245;
     color: #FBEDD4;
-    padding: 90px 0;
+    padding: 50px 20px;
+    margin-bottom: 30px;
+    border-bottom: 7px solid #FFDEEE;
 }
 
-.hero-label,
-.section-label {
-    color: #BF9F74;
-    font-size: 0.85rem;
+.profile-photo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 5px solid #FFDEEE;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.hero-label {
+    color: #FFDEEE;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 2px;
+    margin-bottom: 18px;
 }
 
-.hero h1 {
-    font-size: clamp(3.5rem, 9vw, 6rem);
+.hero-section h1 {
+    font-size: 58px;
     font-weight: 700;
-    line-height: 1;
-    margin: 25px 0;
+    margin-bottom: 20px;
 }
 
-.hero h1 span {
-    color: #3D848F;
+.hero-section .lead {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.8;
 }
 
-.hero h2 {
-    font-size: 1.4rem;
-    font-weight: 400;
+/* Contact information */
+
+.contact-info {
+    max-width: 1100px;
+    padding: 22px 15px;
+    margin-bottom: 25px;
+    background-color: #FFFDF8;
+    border: 1px solid #E2D9C9;
+    border-radius: 8px;
 }
 
-.hero-intro {
-    color: #FBEDD4;
-    font-size: 1.1rem;
-    max-width: 550px;
-    margin-top: 18px;
+.contact-info p {
+    margin-bottom: 5px;
+    font-size: 18px;
 }
 
-.contact-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 22px;
-    margin-top: 30px;
+.contact-info i {
+    color: #B5688C;
+    margin-right: 8px;
+    font-size: 22px;
 }
 
-.contact-links a,
-.contact-links span {
-    color: #FBEDD4;
+.contact-info a {
+    color: #314245;
     text-decoration: none;
 }
 
-.contact-links a:hover {
-    color: #FFDEEE;
+.contact-info a:hover {
+    color: #B5688C;
+    text-decoration: underline;
 }
 
-/* Resume sections */
+/* Section layout */
 
-.resume-content {
-    padding-top: 70px;
-    padding-bottom: 40px;
+.section-container {
+    max-width: 1100px;
+    padding-top: 35px;
+    padding-bottom: 25px;
 }
 
-.resume-section {
-    margin-bottom: 75px;
-    scroll-margin-top: 25px;
+.section-heading {
+    margin-bottom: 28px;
+    padding-bottom: 13px;
+    border-bottom: 2px solid #C8799D;
 }
 
-.resume-section h2 {
-    color: #314245;
-    font-size: 2.3rem;
+.section-heading h2 {
+    font-size: 40px;
     font-weight: 700;
-    margin-bottom: 30px;
-}
-
-.section-label {
-    color: #3D848F;
-    margin-bottom: 10px;
+    color: #B5688C;
+    margin-bottom: 0;
 }
 
 /* Experience and education cards */
 
-.experience-card,
-.education-card {
-    background-color: #ffffff;
-    border: 1px solid #B6B5B8;
-    border-top: 4px solid #3D848F;
-    padding: 28px;
+.resume-card {
+    background-color: #FFFDF8;
+    border: 1px solid #E2D9C9;
+    border-left: 5px solid #C8799D;
+    border-radius: 8px;
+    padding: 26px;
     height: 100%;
 }
 
 .experience-date {
-    color: #777777;
-    font-size: 0.9rem;
-    margin-bottom: 10px;
-}
-
-.experience-card h3,
-.education-card h3 {
-    color: #314245;
-    font-size: 1.35rem;
+    color: #B5688C;
+    font-size: 13px;
     font-weight: 700;
-}
-
-.job-title {
-    color: #3D848F;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-
-.experience-card ul,
-.education-card ul {
-    padding-left: 20px;
-    margin-bottom: 0;
-}
-
-.experience-card li,
-.education-card li {
-    margin-bottom: 8px;
-}
-
-/* Skills */
-
-.skills-card {
-    background-color: #ffffff;
-    border: 1px solid #B6B5B8;
-    padding: 30px;
-    height: 100%;
-}
-
-.skills-card i {
-    color: #3D848F;
-    font-size: 2rem;
-}
-
-.skills-card h3 {
-    color: #314245;
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin-top: 18px;
+    letter-spacing: 1px;
     margin-bottom: 12px;
 }
 
-.skills-card p {
+.resume-card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #314245;
+    margin-bottom: 8px;
+}
+
+.job-title {
+    color: #6E6A61;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.resume-card ul {
+    padding-left: 22px;
+    margin-bottom: 0;
+}
+
+.resume-card li {
+    margin-bottom: 9px;
+    line-height: 1.65;
+    font-size: 15px;
+}
+
+.resume-card li:last-child {
+    margin-bottom: 0;
+}
+
+/* Education cards */
+
+.education-card h3,
+.education-card .experience-date,
+.education-card .job-title,
+.education-card .degree {
+    text-align: center;
+}
+
+.education-card .degree {
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+/* Skills and interests */
+
+.skill-card {
+    background-color: #FFFDF8;
+    border: 1px solid #E2D9C9;
+    border-top: 5px solid #C8799D;
+    border-radius: 8px;
+    padding: 30px 22px;
+    height: 100%;
+}
+
+.skill-card i {
+    color: #B5688C;
+    font-size: 38px;
+}
+
+.skill-card h3 {
+    font-size: 21px;
+    font-weight: 700;
+    color: #314245;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+.skill-card p {
+    font-size: 15px;
+    line-height: 1.7;
     margin-bottom: 0;
 }
 
 /* Footer */
 
-.resume-footer {
+footer {
     background-color: #314245;
     color: #FBEDD4;
-    padding: 25px 0;
-    text-align: center;
+    padding: 32px 0;
+    margin-top: 30px;
+    border-top: 6px solid #FFDEEE;
 }
 
-.resume-footer p {
-    margin-bottom: 8px;
+footer p {
+    margin-bottom: 10px;
+    font-size: 16px;
 }
 
-.resume-footer a {
+footer a {
     color: #FFDEEE;
     text-decoration: none;
+    font-size: 15px;
 }
 
-.resume-footer a:hover {
+footer a:hover {
     color: #BF9F74;
+    text-decoration: underline;
 }
 
-/* Mobile layout */
+/* Smaller screens */
 
-@media (max-width: 576px) {
-    .hero {
-        padding: 60px 0;
+@media (max-width: 767px) {
+    .hero-section {
+        padding: 35px 20px;
     }
 
-    .resume-content {
-        padding-top: 45px;
+    .profile-photo {
+        max-width: 230px;
+        margin-bottom: 22px;
     }
 
-    .resume-section h2 {
-        font-size: 1.9rem;
+    .hero-section h1 {
+        font-size: 42px;
     }
 
-    .contact-links {
-        flex-direction: column;
-        gap: 10px;
+    .hero-section .lead {
+        font-size: 18px;
     }
 
-    .experience-card,
-    .education-card,
-    .skills-card {
+    .hero-label {
+        font-size: 11px;
+        letter-spacing: 1.5px;
+    }
+
+    .section-container {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
+    .section-heading h2 {
+        font-size: 33px;
+    }
+
+    .resume-card {
         padding: 22px;
+    }
+
+    .resume-card h3 {
+        font-size: 22px;
+    }
+
+    .contact-info p {
+        font-size: 16px;
+    }
+
+    .contact-info .col-md-4 {
+        margin-bottom: 8px;
     }
 }
