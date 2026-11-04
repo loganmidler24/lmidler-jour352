@@ -1,16 +1,128 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Three-column grid</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>My HTML Frame</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <div class="grid-3">
-    <div class="item">Column one</div>
-    <div class="item">Column two</div>
-    <div class="item">Column three</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
   </div>
+</nav>            
+            
+                
+
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+
+        <div class="story-header">
+            <h1>Headline</h1>
+            <p class="byline">BYLINE</p>
+        </div>
+
+        <div class="story-content">
+            <h2> Headline</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Vestibulum aliquam erat sit amet odio dapibus, pellentesque 
+                varius libero eleifend. Etiam rutrum, nisi et blandit dictum, 
+                ipsum nunc eleifend diam, a venenatis nulla dolor nec magna. 
+                Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci 
+                luctus et ultrices posuere cubilia Curae; Nunc ac leo nunc. 
+                Proin eu porttitor quam, nec eleifend lacus. Maecenas vel nibh 
+                at lectus tristique pellentesque.
+            </p>
+
+            <!-- Photo -->
+            <figure>
+                <img src="https://placehold.co/900x600" class="story-image" alt="Placeholder image">
+                <figcaption>Caption </figcaption>
+            </figure>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Vestibulum aliquam erat sit amet odio dapibus, pellentesque 
+                varius libero eleifend. Etiam rutrum, nisi et blandit dictum, 
+                ipsum nunc eleifend diam, a venenatis nulla dolor nec magna. 
+                Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci 
+                luctus et ultrices posuere cubilia Curae; Nunc ac leo nunc. 
+                Proin eu porttitor quam, nec eleifend lacus. Maecenas vel nibh 
+                at lectus tristique pellentesque.
+            </p>
+
+            <div class="row three-columns">
+                <div class="col-md-4">
+                    <p>column</p>
+                </div>
+
+                <div class="col-md-4">
+                    <p>column</p>
+                </div>
+
+                <div class="col-md-4">
+                    <p>column</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Footer text</p>
+        
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,101 @@
+
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    color: #212529;
+}
+
+/* Headline and byline */
+.story-header {
+    text-align: center;
+    padding: 10px 20px 25px;
+}
+
+.story-header h1 {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.byline {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/* Story text */
+.story-content {
+    padding: 10px 45px 60px;
+}
+
+.story-content h2 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.story-content p {
+    font-family: Georgia, serif;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Photo and caption */
+figure {
+    width: 75%;
+    margin: 35px auto;
+}
+
+.story-image {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #999;
+}
+
+/* Three columns */
+.three-columns {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.three-columns p {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 10px 5px;
+    font-family: Arial, sans-serif;
+}
+
+footer p {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* Smaller screens */
+@media (max-width: 768px) {
+    .story-content {
+        padding: 10px 20px 40px;
+    }
+
+    .story-header h1 {
+        font-size: 30px;
+    }
+
+    figure {
+        width: 100%;
+    }
+}
